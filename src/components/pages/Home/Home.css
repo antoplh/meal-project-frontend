@@ -1,0 +1,23 @@
+.home {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  gap: 40px;
+}
+
+.home__recipe-list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px 30px;
+  justify-content: center;
+  padding-bottom: 80px; /* 🔥 Más espacio debajo de las tarjetas */
+}
+
+@media (min-width: 1200px) {
+  .home__recipe-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
