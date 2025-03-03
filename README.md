@@ -1,8 +1,27 @@
-# React + Vite
+# Meal Project - Final TripleTen Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de exploración de recetas basado en React, utilizando la API de TheMealDB para obtener información sobre comidas, ingredientes e instrucciones de preparación.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Búsqueda de recetas por nombre
+
+* Filtrado por categoría
+
+* Visualización de detalles de la receta con ingredientes e instrucciones
+
+* Integración con YouTube para ver tutoriales de cocina
+
+* Navegación mediante React Router
+
+## Tecnologías Utilizadas
+
+* **Frontend**: React, Vite, CSS Modules
+
+* **Estado**: React Hooks
+
+* **Routing**: React Router
+
+* **API**: TheMealDB
+
+Página para visitar: https://antoplh.github.io/meal-project-frontend/
