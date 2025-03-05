@@ -6,14 +6,18 @@
   width: 100vw;
   gap: 40px;
 }
-
+.home__title {
+  text-align: center;
+  padding: 0 20px;
+}
 .home__recipe-list {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 50px 30px;
   justify-content: center;
-  padding-bottom: 80px; /* 🔥 Más espacio debajo de las tarjetas */
+  padding-bottom: 80px;
+  margin: auto;
 }
 
 @media (min-width: 1200px) {

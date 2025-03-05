@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 768px) {
+  .nav__logo-img {
+    height: 25px;
+    width: 150px;
+  }
   .nav__burger {
     display: block;
   }
